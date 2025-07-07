@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Duel LAN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="ui">
+    <div id="health-bar-left">100</div>
+    <div id="health-bar-right">100</div>
+    <div id="reload-indicator">Reloaded</div>
+    <button id="fullscreen-btn">Fullscreen (F)</button>
+    <button id="mute-btn">Mute (M)</button>
+    <div id="connection">
+      <button id="host-btn">Host Game</button>
+      <button id="join-btn">Join Game</button>
+      <button id="bot-btn">Play vs Bot</button>
+      <button id="test-btn" style="background: #f00; color: #fff; border: 2px solid #fff;">TEST BUTTON</button>
+      <input id="ip-input" placeholder="Host IP (for Join)">
+    </div>
+  </div>
+  <canvas id="game-canvas" width="800" height="480"></canvas>
+  <script src="assets/sprites.js"></script>
+  <script src="assets/audio.js"></script>
+  <script src="player.js"></script>
+  <script src="bot.js"></script>
+  <script src="game.js"></script>
+</body>
+</html> 

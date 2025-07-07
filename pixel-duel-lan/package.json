@@ -1,0 +1,21 @@
+{
+  "name": "pixel-duel-lan",
+  "version": "1.0.0",
+  "description": "2D LAN Multiplayer Shooter with 8-bit theme",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'No build step required for static files'",
+    "vercel-build": "echo 'Vercel build completed'"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["game", "multiplayer", "shooter", "8-bit", "lan", "vercel"],
+  "author": "Sai Seelam & Rehan Jalali",
+  "license": "MIT"
+}
